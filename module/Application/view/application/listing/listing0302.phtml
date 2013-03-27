@@ -1,0 +1,39 @@
+<?php 
+/**
+ * ZF2 Buch Kapitel 3
+ * 
+ * Das Buch "Zend Framework 2 - Von den Grundlagen bis zur fertigen Anwendung"
+ * von Ralf Eggert ist im Addison-Wesley Verlag erschienen. 
+ * ISBN 978-3-8273-2994-3
+ * 
+ * @package    Application
+ * @author     Ralf Eggert <r.eggert@travello.de>
+ * @copyright  Alle Listings sind urheberrechtlich geschützt!
+ * @link       http://www.zendframeworkbuch.de/ und http://www.awl.de/2994
+ */
+
+/**
+ * Listing 3.2 view script
+ * 
+ * @package    Application
+ */
+?>
+<div class="row">
+<div class="span9">
+<h1>Listing 3.2</h1>
+<h3>Virtual Host Konfiguration für Windows</h3>
+<pre>
+&lt;VirtualHost *:80&gt;
+   DocumentRoot "D:/devhost/luigis-pizza.local/public"
+   ServerName luigis-pizza.local
+
+   &lt;Directory "D:/devhost/luigis-pizza.local/public"&gt;
+       Options Indexes MultiViews FollowSymLinks
+       AllowOverride All
+       Order allow,deny
+       Allow from all
+   &lt;/Directory&gt;
+&lt;/VirtualHost&gt; 
+</pre>
+</div>
+</div>

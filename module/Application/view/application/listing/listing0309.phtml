@@ -1,0 +1,37 @@
+<?php 
+/**
+ * ZF2 Buch Kapitel 3
+ * 
+ * Das Buch "Zend Framework 2 - Von den Grundlagen bis zur fertigen Anwendung"
+ * von Ralf Eggert ist im Addison-Wesley Verlag erschienen. 
+ * ISBN 978-3-8273-2994-3
+ * 
+ * @package    Application
+ * @author     Ralf Eggert <r.eggert@travello.de>
+ * @copyright  Alle Listings sind urheberrechtlich geschützt!
+ * @link       http://www.zendframeworkbuch.de/ und http://www.awl.de/2994
+ */
+
+/**
+ * Listing 3.9 view script
+ * 
+ * @package    Application
+ */
+?>
+<div class="row">
+<div class="span9">
+<h1>Listing 3.9</h1>
+<h3>Frontcontroller-Datei der SkeletonApplication</h3>
+<pre>
+&lt;?php 
+chdir(dirname(__DIR__));
+
+// Setup autoloading
+require 'init_autoloader.php';
+
+// Run the application!
+Zend\Mvc\Application::init(require 'config/application.config.php')->run();
+
+</pre>
+</div>
+</div>
