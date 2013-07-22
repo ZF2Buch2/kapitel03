@@ -1,13 +1,12 @@
 ZF2 Buch - Kapitel 03
 =====================
 
-Die Projektdateien für das Kapitel 03 vom Buch **Zend Framework 2 - Von den 
-Grundlagen bis zur fertigen Anwendung** (*ISBN 978-3-8273-2994-3*) von Ralf Eggert 
-aus dem Addison-Wesley Verlag installieren Sie wie folgt:
+Die Projektdateien für das Kapitel 03 vom Buch **Zend Framework 2 - Das
+Praxisbuch** (*ISBN 978-3-8362-2610-3*) von Ralf Eggert 
+aus dem Galileo-Computing Verlag installieren Sie wie folgt:
 
-* Sie können die Projektdateien als ZIP von der Website http://www.awl.de/2994 
-  unter Downloads oder von GitHub https://github.com/ZF2Buch/kapitel03 herunter
-  laden und in einem geeigneten Verzeichnis entpacken, z.B.
+* Sie können die Projektdateien von https://github.com/ZF2Buch2/kapitel03 als  
+  ZIP herunter laden und in einem geeigneten Verzeichnis entpacken, z.B.
 ```
   /home/devhost/zf2buch/kapitel03
 ```
@@ -16,7 +15,7 @@ aus dem Addison-Wesley Verlag installieren Sie wie folgt:
   GitHub Repository entsprechend, z.B.
 ```
     $ cd /home/devhost/zf2buch/
-    $ git clone https://github.com/ZF2Buch/kapitel03.git
+    $ git clone https://github.com/ZF2Buch2/kapitel03.git
     $ cd kapitel03/
 ```
   
